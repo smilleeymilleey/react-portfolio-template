@@ -65,7 +65,7 @@ Welcome To My Professional Portfolio!
 
 Portfolio
 
-<img src=".jpg">
+<img src="./src/images/portfolio.jpg">
 
  Find my past work and projects, contact information, and learn more about me!
 
