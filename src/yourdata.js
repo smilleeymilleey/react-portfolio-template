@@ -6,11 +6,13 @@ import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
 
+
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -29,7 +31,8 @@ export default {
   //   Header Paragraph
   headerParagraph:
     "I want to make something that makes a difference.",
-
+  header: "https://i.imgur.com/kfAKZPn.jpg",
+  headerUrl:"https://smilleeymilleey.github.io/resume/Resume.pdf",
   //Contact Email
   contactEmail: "caitlynmiley.cm@gmail.com",
 
@@ -148,9 +151,10 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+  promotionHeading: "Qualifications",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    ".",
+  
   // End Promotion Section -----------------
 
   //   Contact Section --------------
@@ -159,6 +163,8 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/smilleeymilleey/" },
+    { img: linkedinIcon, url: "www.linkedin.com/in/caitlynmiley" },
+
   
   ],
 

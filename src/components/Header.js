@@ -1,5 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import Card from "./atoms/Card"
+
 import data from "../yourdata"
 
 const Header = () => {
@@ -37,7 +39,9 @@ const Header = () => {
             </div>
           </Fade>
           <Fade bottom>
+        
             <p>{data.headerParagraph}</p>
+            <p>{data.headerResumeImage}</p>
           </Fade>
           <Fade bottom>
             <a
