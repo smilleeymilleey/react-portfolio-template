@@ -1,75 +1,83 @@
-## A clean, beautiful, minimal and responsive portfolio template for Developers!
 
-![Web 1920 – 1](https://user-images.githubusercontent.com/16558205/101065060-b44bfc80-35ba-11eb-8ab4-1e6f140c1ec9.png)
+# Portfolio-
+Welcome To My Professional Portfolio!
 
-To view a live example, **[click here](https://react-portfolio-template.netlify.app/)**.
-
-
-Just change `src/yourdata.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
-
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/chetanverma16/react-portfolio-template/issues).
-
-
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/chetanverma16/react-portfolio-template/pulls).
-
-## Features
-- Responsive
-- Modern Design
-- Clean Animations
-- Easy to use
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
 
-## Sections
-✔️ Header
-✔️ Work
-✔️ About
-✔️ Skills
-✔️ Contact
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
 
-## How To Use 
 
-From your command line, clone and run react-portfolio-template:
 
-```bash
-# Clone this repository
-$ git clone https://github.com/chetanverma16/react-portfolio-template
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+ 
+  <h3 align="center">Portfolio</h3>
 
-# Go into the repository
-$ cd react-portfolio-template
+  <p align="center">
+    Portfolio
+    <br />
+  -->
+    <br />
+    <br />
+    <a href="https://caitlynmiley.com">View Deployed Link</a>
+    ·
+  </p>
+</p>
 
-# Install dependencies
-$ yarn
 
-#Start's development server
-$ gatsby develop
-```
 
-#### Personalize page content in `/src/yourdata.js` & modify it as per your need.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With Javascript, React, Gatsby, BootStrap, HTML, CSS</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-```javascript
-/* Change this file to get your Personal Porfolio */
- // Edit Values of these variables
 
-name:"chetan",
-headerTagline: [
-    "Building digital",.... 
-]
 
-```
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Deployment
-When you are done with the setup, you should host your website online.
-We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
+Portfolio
 
-#### Deploying to Netlify
+<img src="./src/images/portfolio.jpg">
 
-You could also host directly with Netlify by linking your own repository.
+ Find my past work and projects, contact information, and learn more about me!
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
 
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
+Thanks for checking it out!
+
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
+
+
+
+<!-- GETTING STARTED -->
 
 ## Technologies Used
 
@@ -84,4 +92,67 @@ please don't hesitate to open a [pull request](https://github.com/chetanverma16/
 
 ## Thanks
 If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:hello@chetanverma.com).
+
+<!-- USAGE EXAMPLES -->
+
+
+
+
+<!-- ROADMAP -->
+
+
+
+
+<!-- CONTRIBUTING -->
+
+
+
+
+<!-- LICENSE -->
+
+
+
+
+<!-- CONTACT -->
+
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Img Shields](https://shields.io)
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Pages](https://pages.github.com)
+* [Animate.css](https://daneden.github.io/animate.css)
+* [Loaders.css](https://connoratherton.com/loaders)
+* [Slick Carousel](https://kenwheeler.github.io/slick)
+* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+* [Sticky Kit](http://leafo.net/sticky-kit)
+* [JVectorMap](http://jvectormap.com)
+* [Font Awesome](https://fontawesome.com)
+* [Best READ ME](https://github.com/othneildrew/Best-README-Template)
+* https://github.com/chetanverma16/react-portfolio-template
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+https://github.com/chetanverma16/react-portfolio-template
+
 
