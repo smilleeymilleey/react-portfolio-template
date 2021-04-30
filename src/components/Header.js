@@ -37,22 +37,19 @@ const Header = () => {
                   : "and experience"}
               </h1>
             </div>
-          </Fade>
-          <Fade bottom>
-        
-            <p>{data.headerParagraph}</p>
-            <p>{data.headerResumeImage}</p>
-          </Fade>
-          <Fade bottom>
+
+            <Fade bottom>
             <a
               href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
+                data.contactEmail ? data.contactEmail : "caitlynmiley.cm@gmail.com"
               }`}
               className="primary-btn"
             >
               CONNECT WITH ME
             </a>
           </Fade>
+          </Fade>
+       
         </div>
       </div>
     </div>
