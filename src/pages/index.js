@@ -1,12 +1,11 @@
 import React from "react"
-import Layout from "../components/layout"
+
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
 // Components
-import Header from "../components/Header"
+import Header from "./Header"
 import Work from "../components/Work"
-import About from "../components/about"
-import Skills from "../components/skills"
-import Promotion from "../components/Promotion"
+import About from "./about"
 import Footer from "../components/Footer"
 import {
   BrowserRouter as Router,
@@ -15,37 +14,39 @@ import {
   Link
 } from "react-router-dom";
 
-const IndexPage = () => (
-<div>
-  <Switch>
-    <Route path="/">
-      <Header></Header>
-      <Footer></Footer>
-    </Route>
-    <Route path="/about">
-      <About></About>
-      <Footer></Footer>
-    </Route>
-    <Route path="/work">
-      <Work></Work>  
-      <Footer></Footer> 
-    </Route>
-    <Route path="/skills">
-      <Skills></Skills>
-      <Footer></Footer>
-    </Route>
-    <Route path="/promotion">
-      <Promotion></Promotion>
-      <Footer></Footer>
-    </Route>
-  </Switch>
-    <SEO title="Caitlyn Miley" />
-   
-</div>
-  
-   
-   
-   
-)
+export default function IndexPage() {
+  return (
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/work">Work</Link>
+            </li>
+          </ul>
+        </nav>
 
-export default IndexPage
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/work">
+            <Work />
+          </Route>
+          <Route path="/">
+            <Header />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  );
+}
+
