@@ -4,9 +4,9 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 // Components
 import Header from "./Header"
-import Work from "../components/Work"
+import Work from "./Work"
 import About from "./about"
-import Footer from "../components/Footer"
+import Footer from "./Footer"
 import {
   BrowserRouter as Router,
   Switch,
@@ -37,15 +37,19 @@ export default function IndexPage() {
         <Switch>
           <Route path="/about">
             <About />
+            <Footer />
           </Route>
           <Route path="/work">
             <Work />
+            <Footer />
           </Route>
           <Route path="/">
             <Header />
+            <Footer />
           </Route>
         </Switch>
       </div>
+      
     </Router>
   );
 }
