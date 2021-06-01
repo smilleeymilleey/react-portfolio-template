@@ -71,6 +71,12 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
+        "skillname":"Bootstrap"
+      },
+      {
+        "skillname":"Git"
+      },
+      {
         "skillname":"React"
       },
       {
@@ -79,24 +85,28 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Twitter Clone",
+        "description":"Twitter Clone",
+        "imgurl":"images/twitter.jpg",
+        "link": "https://twitter-clone-1ef21.web.app"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Amazon Clone",
+        "description":"Amazon Clone",
+        "imgurl":"images/amazon.jpg",
+        "link": "https://e-commerce-34a07.web.app/"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Event Planner",
+        "description":"Event Planner",  
+        "imgurl":"images/event.jpg",
+        "link": "https://mullet-events.herokuapp.com/"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Online Art Mueseum",
+        "description":"Online Art Museum",
+        "imgurl":"images/art.jpg",
+        "link": "https://smilleeymilleey.github.io/Artopolis-/"
       }
     ],
     "testimonials":[
