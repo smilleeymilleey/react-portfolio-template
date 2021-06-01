@@ -1,60 +1,65 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "name": "Caitlyn Miley",
+    "role": "Frontend Developer",
+    "linkedinId":"CaitlynMiley",
+    
+    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles and build fun apps in my free time!",
     "socialLinks":[
         {
+          // updated
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/caitlynmiley/",
           "className":"fa fa-linkedin"
         },
         {
+          // updated
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/smilleeymilleey",
           "className":"fa fa-github"
         },
+        // updated
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "name":"Twitter",
+          "url":"https://twitter.com/smilleymilleey",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+
+      // updated
+    "aboutme":"I want to build something that makes a difference. I have been programming for the past 2 years. I hold a bachelors of Science and Engineering and a Full Stack Web Development Certification from Southern Methodist University",
+    "address":"Dallas, Tx",
+    "website":"caitlynmiley.cm@gmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
+        "specialization":"Full Stack Web Development Certification ",
+        "UniversityName":"Southern Methodist University",
+        "MonthOfPassing":"May",
         "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "Achievements":"Front End Skills"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
+        "specialization":"Bachelors- Science & Engineering",
+        "UniversityName":"Texas A&M University-Commerce",
         "MonthOfPassing":"Jan",
         "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Deans List"
       }
     ],
+
+    // updated
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Latorly Enterprises",
+        "specialization":"Web Developer",
+        "YearOfLeaving":"current",
+        "Achievements":"CEO, Javascript, Wordpress, Sales, Marketing, Leadership "
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"How To Be Social",
+        "specialization":"Web Developer Creative",
+        "YearOfLeaving":"2019-2021",
+        "Achievements":"Department Head, Website Developer Squarespace, Wordpress, Javascipt"
       }
     ],
     "skillsDescription":"Your skills here",
@@ -66,7 +71,10 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"React"
+      },
+      {
+        "skillname":"Javascript"
       }
     ],
     "portfolio":[
