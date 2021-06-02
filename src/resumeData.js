@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Frontend Developer",
     "linkedinId":"CaitlynMiley",
     
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles and build fun apps in my free time!",
+    "roleDescription": "I want to build something that makes a difference.",
     "socialLinks":[
         {
           // updated
@@ -27,7 +27,7 @@ let resumeData = {
       ],
 
       // updated
-    "aboutme":"I want to build something that makes a difference. I have been programming for the past 2 years. I hold a bachelors of Science and Engineering and a Full Stack Web Development Certification from Southern Methodist University",
+    "aboutme":"Caitlyn holds a Bachelors of Science & Engineering, a Full Stack Web Development Certificate from Southern Methodist University and a Responsive Web Design Certificate. She has a background in Education and holds the value of learning as a core personal value. She is effective at solving technical problems to develop user-friendly web based applications and known amongst her peers for her attention to detail and friendly disposition. ",
     "address":"Dallas, Tx",
     "website":"caitlynmiley.cm@gmail.com",
     "education":[
