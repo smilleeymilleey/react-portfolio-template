@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import "../components/Blog.css"
 
 
 function Blog() { 
@@ -13,6 +14,7 @@ function Blog() {
         .then(response => response.json())
         .then(data => {
             setBlogPost(data)
+            console.log(data)
         });
     }, [])
 
@@ -24,7 +26,28 @@ function Blog() {
 
          {/* post data and map */}
           <h1>{blogPost && blogPost.items.map(post => 
-            <h1>{post.title}</h1>
+            <div>
+                
+                <div className="topCard card w-75">
+                <div className="card-body">
+                    <h5 className="card-title">{post.title}</h5>
+                    <p className="card-text">{post.title}</p>
+                    <a href={post.link} className="btn btn-primary">Button</a>
+                </div>
+                </div>    
+            </div>
+            
+
+            
+
+
+
+
+
+
+
+
+
             )}</h1>  
      
         </div>
