@@ -9,7 +9,7 @@ function Blog() {
          var output = '';
 
         }
-
+console.log(data)
 });
 
 
