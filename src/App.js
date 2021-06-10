@@ -6,6 +6,8 @@ import Portfolio from './components/Portfolio';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import Blog from "./components/Blog";
+
 class App extends Component {
   render() {
     return (
@@ -14,6 +16,7 @@ class App extends Component {
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
+        <Blog />
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>
