@@ -1,16 +1,21 @@
 import React from 'react'
 
-function Blog() {       
-    var data = {rss: "https://medium.com/feed/@username"}
-    fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40caitlynmiley-cm')
-        .then(
-            function(response) {
-        if (response.status == 'ok') {
-         var output = '';
+function Blog() { 
+    
+ //api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40caitlynmiley-cm'
 
-        }
-console.log(data)
-});
+ function reqListener () {
+     console.log(this.responseText);
+ }
+    const data = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40caitlynmiley-cm"
+  
+    let request = new XMLHttpRequest();
+    request.addEventListener("load", reqListener);
+    request.open("GET", data);
+    request.send();
+        
+        
+
 
 
 
