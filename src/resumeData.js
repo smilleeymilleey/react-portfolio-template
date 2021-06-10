@@ -36,7 +36,7 @@ let resumeData = {
         "UniversityName":"Southern Methodist University",
         "MonthOfPassing":"May",
         "YearOfPassing":"2020",
-        "Achievements":"Front End Skills"
+        "Achievements":"Front End Award"
       },
       {
         "specialization":"Bachelors- Science & Engineering",
@@ -52,12 +52,12 @@ let resumeData = {
       {
         "CompanyName":"Latorly Enterprises",
         "specialization":"Web Developer",
-        "YearOfLeaving":"current",
+        "YearOfLeaving":"Current",
         "Achievements":"CEO, Javascript, Wordpress, Sales, Marketing, Leadership "
       },
       {
         "CompanyName":"How To Be Social",
-        "specialization":"Web Developer Creative",
+        "specialization":"Web Developer",
         "YearOfLeaving":"2019-2021",
         "Achievements":"Department Head, Website Developer Squarespace, Wordpress, Javascipt"
       }

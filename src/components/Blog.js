@@ -27,7 +27,6 @@ function Blog() {
          {/* post data and map */}
           <h1>{blogPost && blogPost.items.map(post => 
             <div>
-                
                 <div className="topCard card w-75">
                 <div className="card-body">
                     <h5 className="card-title">Blog Series- Interviews With Influencers In Tech</h5>
