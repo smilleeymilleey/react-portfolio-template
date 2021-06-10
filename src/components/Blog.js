@@ -30,7 +30,7 @@ function Blog() {
                 
                 <div className="topCard card w-75">
                 <div className="card-body">
-                    <h5 className="card-title">{post.title}</h5>
+                    <h5 className="card-title">Blog Series- Interviews With Influencers In Tech</h5>
                     <p className="card-text">{post.title}</p>
                     <a href={post.link} className="btn btn-primary">Button</a>
                 </div>

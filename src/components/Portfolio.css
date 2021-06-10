@@ -1,0 +1,19 @@
+.twelve{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#portfolio {
+    align-items: center !important;
+    display: flex;
+    flex-direction: center !important;
+    padding-left: 20%;
+    padding-right: 15%;
+    
+}
+
+.img {
+    width: 900px;
+    height: 200px;
+}
