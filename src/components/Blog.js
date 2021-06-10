@@ -1,27 +1,31 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+
 
 function Blog() { 
+
+    const [blogPost, setBlogPost] = useState(null);
     
- //api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40caitlynmiley-cm'
+    useEffect(() => {
 
- function reqListener () {
-     console.log(this.responseText);
- }
-    const data = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40caitlynmiley-cm"
+        const url = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40caitlynmiley-cm"
+      
+        fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            setBlogPost(data)
+        });
+    }, [])
+
   
-    let request = new XMLHttpRequest();
-    request.addEventListener("load", reqListener);
-    request.open("GET", data);
-    request.send();
-        
-        
-
-
-
-
+    
     return (
         <div>
-          <h1>Test</h1>  
+         <h1>Blog</h1>
+
+         {/* post data and map */}
+          <h1>{blogPost && blogPost.items.map(post => 
+            <h1>{post.title}</h1>
+            )}</h1>  
      
         </div>
     )
