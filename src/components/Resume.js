@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import "../components/Resume.css";
+
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -43,12 +45,13 @@ export default  class Resume extends Component {
                     <div className="row item">
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
-                        
+                        <br></br>
                           <p className="info">
                           {item.specialization}
                      
-                           <em className="date">{item.MonthOfLeaving}{item.YearOfLeaving}</em></p>
-                           
+                           {/* <em className="date">{item.MonthOfLeaving}{item.YearOfLeaving}</em></p> */}
+                           </p>
+                           <br></br>
                           <p>
                           {item.Achievements}
                           </p>
