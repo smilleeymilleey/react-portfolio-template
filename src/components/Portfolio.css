@@ -13,6 +13,13 @@
     
 }
 
+.mywork{
+    padding-bottom: 6px;
+    border-bottom: 3px solid rgb(17, 171, 176);
+    margin-right: 90%;
+    font: 16px/24px 'opensans-bold', sans-serif !important;
+}
+
 .img {
     width: 900px;
     height: 200px;
