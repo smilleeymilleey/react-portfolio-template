@@ -22,7 +22,7 @@ function Blog() {
     
     return (
         <div>
-         <h1>Blog</h1>
+         <h1 className="blog">Blog</h1>
 
          {/* post data and map */}
           <h1>{blogPost && blogPost.items.map(post => 
@@ -31,7 +31,7 @@ function Blog() {
                 <div className="card-body">
                     <h5 className="card-title">Blog Series- Interviews With Influencers In Tech</h5>
                     <p className="card-text">{post.title}</p>
-                    <a href={post.link} className="btn btn-primary">Button</a>
+                    <a href={post.link} className= " buttonBlog btn btn-primary">Button</a>
                 </div>
                 </div>    
             </div>
