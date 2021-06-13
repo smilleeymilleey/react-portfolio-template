@@ -22,7 +22,7 @@ function Blog() {
     
     return (
         <div>
-         <h1 className="blog">Blog</h1>
+         <span className="blog">BLOG</span>
 
          {/* post data and map */}
           <h1>{blogPost && blogPost.items.map(post => 

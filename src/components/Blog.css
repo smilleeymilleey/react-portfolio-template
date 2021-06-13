@@ -12,11 +12,16 @@
 
 .buttonBlog {
    background-color: #CC5200;
+   margin-top: 10%;
 }
 
 .blog{
    padding-bottom: 6px;
    border-bottom: 3px solid rgb(17, 171, 176);
    margin-right: 90%;
-   font: 16px/24px 'opensans-bold', sans-serif !important;
+   padding-bottom: 6px;
+   border-bottom: 3px solid rgb(17, 171, 176);
+   margin-right: 90%;
+   font-family: 'opensans-bold';
+   font-size: 20px;
 }
