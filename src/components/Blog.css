@@ -5,7 +5,7 @@
    margin-top: 5%;
    border-radius: 1%;
    box-shadow: 10px 5px 5px lightgrey;
-   padding-bottom: 5%;
+  
    margin-bottom: 5%;
    
 }
@@ -13,6 +13,7 @@
 .buttonBlog {
    background-color: #CC5200;
    margin-top: 10%;
+   color: white !important;
 }
 
 .blog{
@@ -20,7 +21,6 @@
    border-bottom: 3px solid rgb(17, 171, 176);
    margin-right: 90%;
    padding-bottom: 6px;
-   border-bottom: 3px solid rgb(17, 171, 176);
    margin-right: 90%;
    font-family: 'opensans-bold';
    font-size: 20px;
