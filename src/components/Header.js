@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import "../components/Header.css";
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
