@@ -25,10 +25,10 @@
    font-size: 20px;
 }
 
-/* .cardContainer:hover{
+.cardContainer:hover{
    background-color: grey;
    opacity: 70%;
    cursor: pointer;
    color: black !important;
  
-} */
+}

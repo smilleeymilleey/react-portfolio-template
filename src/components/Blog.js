@@ -28,24 +28,13 @@ function Blog() {
           <h1>{blogPost && blogPost.items.map(post => 
             <div>
                 <div className="topCard card w-75">
-                <div className="cardContainer card-body">
+                <div onClick={()=> window.open(post.link, "_blank")} className="cardContainer card-body">
                     <h5 className="card-title">Blog Series- Interviews With Influencers In Tech</h5>
                     <p className="card-text">{post.title}</p>
                     <a href={post.link} className= " buttonBlog btn btn-primary">Read Here</a>
                 </div>
                 </div>    
             </div>
-            
-
-            
-
-
-
-
-
-
-
-
 
             )}</h1>  
      
