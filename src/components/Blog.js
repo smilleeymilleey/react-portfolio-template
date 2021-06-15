@@ -23,11 +23,10 @@ function Blog() {
     return (
         <div>
          <span id="blog"className="blog">BLOG</span>
-
          {/* post data and map */}
-          <h1>{blogPost && blogPost.items.map(post => 
-            <div>
-                <div className="topCard card w-75">
+          <h1>{blogPost && blogPost.items.slice(0,3).map(post => 
+        <div>
+          <div className="topCard card w-75">
                 <div onClick={()=> window.open(post.link, "_blank")} className="cardContainer card-body">
                     <h5 className="card-title">Blog Series- Interviews With Influencers In Tech</h5>
                     <p className="card-text">{post.title}</p>
@@ -36,8 +35,8 @@ function Blog() {
                 </div>    
             </div>
 
-            )}</h1>  
-     
+            )}
+            </h1>  
         </div>
     )
 }
