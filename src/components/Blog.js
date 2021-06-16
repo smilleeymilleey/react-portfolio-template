@@ -22,7 +22,7 @@ function Blog() {
     
     return (
         <div>
-         <span id="blog"className="blog">BLOG</span>
+         <span id="blog"className="blog">BLOG!</span>
          {/* post data and map */}
           <h1>{blogPost && blogPost.items.slice(0,3).map(post => 
         <div>
